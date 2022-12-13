@@ -1,0 +1,119 @@
+*{margin: auto;
+padding: auto;
+font-family: helvetica;
+}
+header{
+background-color: gray;
+}
+header ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav {
+    padding-top: 2rem;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+main ul{
+    color: blue;
+}
+ul span{
+    color: rgb(0, 0, 0);
+}
+
+.napis{
+    float: left;
+}
+#ikona{
+    float: right;
+    margin: right 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+header li {
+       margin: right 5px;
+padding-left: 10px;
+padding-right: 15px;}
+
+footer{
+position: absolute;
+		bottom:0;
+		width:100%;
+		background:#cfd3d0;
+        height: 5%;
+        font-size: 0.8rem;
+        text-align: center;
+        display: flex;
+
+}
+.tak{flex}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+
+h1{padding-top: 1.5rem;
+padding-bottom: 1rem;}
+
+nav{
+    padding-top: 1rem;
+    width: 90%;
+    margin-right: 5%;
+    border-bottom: solid 1px;
+}
+.cena{padding-bottom: 2.5rem;}
+.zawiera{padding-bottom: 1rem;}
+.premium{padding-top: 1rem;
+padding-bottom: 0.5rem;}
+
+.cena, .premium, .apki{
+    color: grey;
+}
+.apki{
+    padding-top: 1rem;
+padding-bottom: 0.5rem;
+}
+.funkcje{
+    padding-top: 1rem;
+}
+aside{
+    background-color: white;
+}
+.zmiana{
+    background-color: grey;
+    width: 30rem;
+    border-radius: 8px;
+}
+.kontener {
+    width: 90%;
+    margin-right: 5%;
+    height: 90%;
+    display: flex;
+    padding-top: 4rem;
+}
+
+.pakiecik{
+    background-color: grey;
+    width: 30rem;
+    padding-top: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.olop{padding-top: 8rem;}
+.cz1{
+    border-right: solid;
+}
+section{
+    padding-top: 10rem;
+}
